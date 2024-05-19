@@ -1,0 +1,12 @@
+---
+repl_user: repl_user
+repl_pass: Admin123
+bot_user: bot
+bot_pass: bot
+#postgresql.conf
+listen_addresses_master: '*'
+#pg_hba.conf
+listen_addresses_master_pg: 192.168.1.92/24
+#slave
+master_ip: 192.168.1.91/32
+master_ip_for_relication: 192.168.1.91

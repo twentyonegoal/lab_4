@@ -1,0 +1,5 @@
+bot_server ansible_host=192.168.1.91 ansible_user=ansible ansible_password=Admin123
+replica_db ansible_host=192.168.1.92 ansible_user=ansible ansible_password=Admin123
+[db_postgres]
+bot_server
+replica_db
